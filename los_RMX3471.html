@@ -102,14 +102,14 @@
             <h3>Project information</h3>
             <ul>
               <li><strong>Category</strong>: Phone Roms</li>
-              <li><strong>Device</strong>: Realme 9 Pro 5G</li>
+              <li><strong>Device</strong>: Realme 9 Pro 5G/ 9 5G/ Q5</li>
               <li><strong>Android Version</strong>: Android 14 (U)</li>
-              <li><strong>Last Updated</strong>: 28 January, 2024</li>
-              <li><a href="https://dlupload.com/filedetail/1449378277">Rom</a></li>
-              <li><a href="https://dlupload.com/filedetail/60457338">Boot</a></li>
-              <li><a href="https://dlupload.com/filedetail/1854659989">vendor_boot</a></li>
-              <li><a href="https://dlupload.com/filedetail/620111393">dtbo</a></li>
-              <li><a href="https://dlupload.com/filedetail/1888297563">Gapps</a></li>
+              <li><strong>Last Updated</strong>: 17 June, 2024</li>
+              <li><a href="https://dlupload.com/filedetail/267035027">Rom</a></li>
+              <li><a href="https://dlupload.com/filedetail/1841352185">Boot</a></li>
+              <li><a href="https://dlupload.com/filedetail/49761138">vendor_boot</a></li>
+              <li><a href="https://dlupload.com/filedetail/511503401">dtbo</a></li>
+              <li><a href="https://dlupload.com/filedetail/1361563723">Firmware</a></li>
               <li><a href="https://xdaforums.com/t/rom-14-0-unofficial-lineageos-21-for-realme-9-pro-5g-rmx3471-rmx3472.4648939/">XDA Thread</a></li>
             </ul>
           </div>
@@ -124,15 +124,15 @@
           <p style="color:red"> <B>
             Changelogs:
           </B></p>
-          <p style="color:#0B5345"> <I> * Unified RMX3471, RMX3472, RMX3474 and RMX3478 under oscar <br> * LineageOS source upstream. </I></p>
+          <p style="color:#0B5345"> <I> * Enabled CPUDDRLat boost <br> * Fixed Wifi Display <br> * Updated blobs from RMX3471_14.0.0.700(EX01) <br> * Switched to common libperfmgr <br> * Optimized auto brightness adjustment <br> * Improved location accuracy <br> * Fixed usb options greyed out settings <BR> * Fixed hotword causing ADSP crashes and panics <br> * Kernel fully rebased to RMX3471_14.0.0.501(EX01) <br> * Merged ACK 5.4.268 <br> * Merged security patches upto May 2024 <br> * LineageOS source upstream. </I></p>
           <p style="color:#BA4A00"> <B>
             Notes:
           </B></p>
-          <p style="color:#34495E"> <I>* Since this build is commonized under oscar, clean flash is needed. <br>* Use the mentioned recovery to install <br>* Take a backup of your data as this process will erase /data partition <br>* Follow instructions carefully for flashing <br>* MindTheGapps preferred for gapps (can try others too, i haven't tested those) <br>* In case if you find any bugs, report with proper logs <br>* Charging control hal might send a notification which cant be cleared by swiping. If happens so, just long press on the notification and turn off notifications for charging hal. </I></p>
+          <p style="color:#34495E"> <I>* Clean flash is needed. <br>* Use the mentioned recovery to install <br>* Take a backup of your data as this process will erase /data partition <br>* Follow instructions carefully for flashing <br>* MindTheGapps preferred for gapps (can try others too, i haven't tested those) <br>* In case if you find any bugs, report with proper logs <br>* Charging control hal might send a notification which cant be cleared by swiping. If happens so, just long press on the notification and turn off notifications for charging hal. </I></p>
           <p style="color:red"> <B>
             How to Flash:
           </B></p>
-          <p> * Download all 4 files listed above (Rom, boot, dtbo, vendor_boot) <br> * Reboot to bootloader <br> * Type the following three commands carefully from the directory where the files are downloaded <br> * fastboot flash boot boot.img <br> * fastboot flash dtbo dtbo.img <br> * fastboot flash vendor_boot vendor_boot.img <br> * After flashing all three files, reboot to recovery <br> * Format data (ignore if recovery complains about metadata type) <br> * Select apply update > install using adb <br> * Connect device to computer and type the following command <br> * adb sideload lineage***.zip (Replace with the filename of the zip) <br> * After flash completed, recovery will ask to reboot to recovery if in case u need to flash any other zips like magisk, gapps etc. Proceed accordingly. <br> * Format data once again after everything completed <br> * Now you successfully flashed the rom. Boot into the rom and enjoy. </p>
+          <p> * Download all 5 files listed above (Rom, boot, dtbo, vendor_boot) <br> * Reboot to bootloader <br> * Type the following three commands carefully from the directory where the files are downloaded <br> * fastboot flash boot boot.img <br> * fastboot flash dtbo dtbo.img <br> * fastboot flash vendor_boot vendor_boot.img <br> * After flashing all three files, reboot to recovery <br> * Connect device to computer <br> * Go to Advanced > Reboot to fastboot <br> * Now you will be in fastbootd mode. extract the downloaded firmware zip in pc <br> * under the firmware, there should be install.sh and install.bat files <br> * Run install script as per your OS. (sh file if linux/ubuntu and bat if windows) <br> * After successfull flash, reboot to recovery again <br> * Format data (ignore if recovery complains about metadata type) <br> * Select apply update > install using adb <br> * Connect device to computer and type the following command <br> * adb sideload lineage***.zip (Replace with the filename of the zip) <br> * After flash completed, recovery will ask to reboot to recovery if in case u need to flash any other zips like magisk, gapps etc. Proceed accordingly. <br> * Format data once again after everything completed <br> * Now you successfully flashed the rom. Boot into the rom and enjoy. </p>
         </div>
 
       </div>
